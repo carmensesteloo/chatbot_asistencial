@@ -4,9 +4,9 @@ Este proyecto es un asistente de voz desarrollado en Python con una interfaz gr�
 
 ## Funcionalidades Principales
 
-1. Contar Chistes: El usuario puede pedir chistes por categorías (Jaimito, Lepe, cortos, etc.) o al azar.
-2. Búsqueda en YouTube: El asistente escucha de qué quieres ver un vídeo, lo busca en YouTube y te muestra las 3 mejores opciones en pantalla.
-3. Terapia de Reminiscencia: Un modo de charla empática (disponible en castellano y gallego normativo) diseñado para hacer compañía a personas mayores y animarles a hablar de su pasado.
+1. **Contar Chistes:** El usuario puede pedir chistes por categorías (Jaimito, Lepe, cortos, etc.) o al azar.
+2. **Búsqueda en YouTube:** El asistente escucha de qué quieres ver un vídeo, lo busca en YouTube y te muestra las 3 mejores opciones en pantalla.
+3. **Terapia de Reminiscencia:** Un modo de charla empática (disponible en castellano y gallego normativo) diseñado para hacer compañía a personas mayores y animarles a hablar de su pasado.
 
 ## Tecnologías y Librerías Utilizadas
 
