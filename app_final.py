@@ -9,20 +9,20 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* 1. FUENTE MONTSERRAT */
+/* escogemos fuente */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 html, body, [class*="st-"] {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-/* 2. FONDO ESTILO USC MODERNO */
+/* ponemos fondo */
 .stApp {
     background: radial-gradient(circle at 20% 20%, #1f3d39, #0c1a1a 60%);
     min-height: 100vh;
 }
 
-/* FORMAS VERDES DECORATIVAS (Efecto cristal/resplandor) */
+/* ponemos las formas verdes */
 .stApp::before{
     content:"";
     position:fixed;
@@ -49,12 +49,12 @@ html, body, [class*="st-"] {
     opacity:0.35;
 }
 
-/* 3. OCULTAR MENÚ DE STREAMLIT */
+/* ocultamos el menu de streamlit */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
 
-/* 4. TEXTOS */
+/* textos */
 .titulo-app {
     text-align: center;
     font-weight: 900;
@@ -70,12 +70,12 @@ header {visibility: hidden;}
     margin-bottom: 40px;
 }
 
-/* Forzar color blanco en textos normales de Streamlit */
+/* forzamos el color blanco en textos normales de Streamlit */
 p, div {
     color: #ffffff !important;
 }
 
-/* 5. BOTÓN EN NEGRITA MÁXIMA */
+/* poenmos el boton en negrita */
 .stButton > button {
     height: 100px;
     font-size: 24px !important;
@@ -88,7 +88,7 @@ p, div {
     transition: 0.3s;
 }
 
-/* Forzar negrita incluso si Streamlit lo envuelve en un párrafo */
+/* forzamos negrita incluso si Streamlit lo envuelve en un parrafo */
 .stButton > button p {
     font-weight: 900 !important;
     font-size: 24px !important;
@@ -99,7 +99,7 @@ p, div {
     box-shadow: 0 15px 35px rgba(0,0,0,0.5) !important;
 }
 
-/* Línea separadora elegante */
+/* ponemos una liena separadora */
 hr {
     border: 0;
     height: 1px;
@@ -110,7 +110,7 @@ hr {
 </style>
 """, unsafe_allow_html=True)
 
-# --- CONTENIDO DE LA PÁGINA ---
+#contenido de la pagina
 
 st.markdown("<h1 class='titulo-app'>Tu Asistente</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitulo-app'>Toca el botón verde y pídeme un chiste, un vídeo, o dime que quieres hablar</p>", unsafe_allow_html=True)
@@ -118,7 +118,7 @@ st.markdown("<p class='subtitulo-app'>Toca el botón verde y pídeme un chiste, 
 col1, col2, col3 = st.columns([1, 4, 1])
 
 with col2:
-    # El botón con el texto deseado
+    #ponemos el texto en el boton
     boton_hablar = st.button("PULSAR PARA HABLAR", use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
