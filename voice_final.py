@@ -82,7 +82,7 @@ def get_voice_command(mensaje_consola="Habla ahora...", tiempo_silencio=1.5, lan
             return "error"
 
 '''
-Función que genera el mp3 dondeguardamos temporalmente la voz del chatbot
+Función que genera el mp3 donde guardamos temporalmente la voz del chatbot
 '''    
 def hablar_hilo(text, voz):
     texto_limpio = text.replace("|", "... ")
